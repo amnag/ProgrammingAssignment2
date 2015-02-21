@@ -8,7 +8,7 @@ makeCacheMatrix <- function(x = matrix()) {
         # sets the inverse equal to NULL
         set <- function(y) {
                 x <<- y
-                # sets function assigns the argument to x
+                # set function assigns the argument to x
                 inv <<- NULL
                 # Once the set function is called, the inverse is re-set to NULL
         }
